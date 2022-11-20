@@ -1,0 +1,87 @@
+
+
+.main-container{
+    width: 1300px;
+    height: 100vh;
+
+    /* background-color: red; */
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 54px;
+}
+
+.comment-container{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    margin-top: 20px;
+    border: 1px solid #202020;
+    display: flex;
+}
+
+.comment{
+    background-color: white;
+    width: 1000px;
+    height: 150px;
+
+    font-size: 19px;
+    padding: 5px;
+
+    line-height: 1.5;
+    margin: 0 0 0 50px;
+}
+
+.prof-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    margin-left: 10px;
+}
+
+.nametag{
+    margin: 5px 0 0 5px;
+    color: rgba(0,0,0,0.5);
+}
+
+.upvotes{
+    margin: 5px 0 0 47px;
+    color: rgba(0,0,0,0.5);
+}
+
+.voting-systems{
+    display: flex;
+}
+
+.vote-up{
+    margin: 5px 0 0 30px;
+    padding: 2px 15px 2px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: limegreen;
+}
+
+.vote-down{
+    margin: 5px 0 0 15px;
+    padding: 2px 15px 2px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+}
+
+/* ------------------------------------- */
+
+
+.navs ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+/* .navs ul li{
+    margin-right: 10px;
+} */
